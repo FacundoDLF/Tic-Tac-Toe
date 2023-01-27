@@ -1,0 +1,55 @@
+body {
+    padding: 4%;
+    text-align: center;
+    background-color: black;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    border: 2px solid green;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 48px;
+    font-family: monospace;
+    color: green;
+}
+
+td:hover {
+    background-color: green;
+    color: black;
+    cursor: pointer;
+}
+
+#reset-button {
+    margin: 10px auto;
+    display: block;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: monospace;
+    color: green;
+    background-color: black;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+#reset-button:hover {
+    background-color: green;
+    color: black;
+}
+
+#the-end {
+    display: block;
+    text-align: center;
+    margin: 10px auto;
+    padding: 20px;
+    font-size: 50px;
+    font-family: monospace;
+    color: green;
+    background-color: black;
+}
